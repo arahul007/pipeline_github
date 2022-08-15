@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-              bat   'javac  Coffee.java'
+              bat   'dir'
             }
         }       
     }
